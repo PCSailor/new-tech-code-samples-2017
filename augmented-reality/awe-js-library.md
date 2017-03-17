@@ -1,6 +1,7 @@
 Awe.js is a JavaScript library to create an augmented reality experience on the mobile web.
 It uses the Three.js API, which is a device’s camera and some smart techniques to create augmented reality in the browser.
-Create a 3D control board that opens on top of a paper marker and hook it up to do pretty much anything that can be enabled via a JavaScript HTTP request, set up to change the color of a LIFX lightbulb using IFTTT.
+
+Create a 3D control board that opens on top of a paper marker and connect with anything that can be enabled via a JavaScript HTTP request, i.e. change a LIFX lightbulb using IFTTT.
 
 You can download the library and some samples on the awe.js GitHub repo. It provides four different sorts of AR experiences, each with their own example in the repo:
 
@@ -16,3 +17,9 @@ https://github.com/sitepoint-editors/ARLIFXController
 
 Augmented Reality APIs are Here
 http://www.htmlgoodies.com/html5/javascript/augmented-reality-apis-are-here.html#fbid=aupxxtfAN54
+
+LIFX lightbulbs
+The LIFX Original is a Wi-Fi Smart LED White Light Bulb-16 million colors-1000 shades of white
+
+If this then that App:
+https://ifttt.com/

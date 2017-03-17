@@ -20,7 +20,7 @@ if (hasGetUserMedia()) {
 } else {
   alert('getUserMedia() is not supported in your browser');
 }
-// NOTE:  use Modernizr to detect getUserMedia to avoid the vendor prefix
+// NOTE:  Modernizr to detect getUserMedia to avoid the vendor prefix
 if (Modernizr.getusermedia){
   var gUM = Modernizr.prefixed('getUserMedia', navigator);
   gUM({video: true}, function( //...

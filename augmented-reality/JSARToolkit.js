@@ -4,19 +4,15 @@
 // JSARToolKit uses raster objects to read image data.
 // Note that you need to set canvas.changed = true on every frame.
 var raster = new NyARRgbRaster_Canvas2D(canvas);
-
 // FLARParam is the thing used by FLARToolKit to set camera parameters.
 // Here we create a FLARParam for images with 320x240 pixel dimensions.
 var param = new FLARParam(320, 240);
-
 // The FLARMultiIdMarkerDetector is the actual detection engine for marker detection.
 // It detects multiple ID markers. ID markers are special markers that encode a number.
 var detector = new FLARMultiIdMarkerDetector(param, 120);
-
 // For tracking video set continue mode to true. In continue mode, the detector
 // tracks markers across multiple frames.
 detector.setContinueMode(true);
-
 // Copy the camera perspective matrix from the FLARParam to the WebGL library camera matrix.
 // The second and third parameters determine the zNear and zFar planes for the perspective matrix.
 param.copyCameraMatrix(display.camera.perspectiveMatrix, 10, 10000);
